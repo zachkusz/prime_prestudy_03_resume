@@ -11,11 +11,21 @@ body{
 	font-family: "Times New Roman", serif;
 }
 
+img{
+	margin-top: 35px;
+	float: right;
+	height: 168px;
+	width: auto;
+	position: relative;
+}
+
 section, article{
 	margin: 15px auto 15px auto;
 }
 
 header{
+	text-align: center;
+	margin: 15px auto 15px auto;
 	background-color: #a2c9e4;
 	border: solid;
 	border-width: 10px;
@@ -67,6 +77,23 @@ h4{
 
 header p{
 	font-size: 20px;
+}
+
+.button {
+	font-weight: bold;
+	text-align: center;
+	color: #dd9f30;
+	background-color: #ddf0ef;
+	border: solid;
+	border-width: 5px;
+	border-radius: 5%;
+	border-color: #002b80;
+	width: 200px;
+	margin: 100px auto 0 auto;
+}
+
+.button:hover {
+	background-color: #dd00ef;
 }
 
 .view-button {

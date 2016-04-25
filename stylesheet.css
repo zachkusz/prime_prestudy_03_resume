@@ -99,3 +99,6 @@ header p{
 .view-button {
 	display: none;
 }
+a:hover{
+	color: #ff9900;
+}

@@ -1,0 +1,74 @@
+h1, h2, h3, h4, p , li{
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
+body{
+	background-image: url("http://coolblackppt.com/wp-content/uploads/2013/08/Yellow-parchment-paper-texture-picture-free-photograph-photos.jpg");
+	font-family: "Times New Roman", serif;
+}
+
+section, article{
+	margin: 15px auto 15px auto;
+}
+
+header{
+	background-color: #a2c9e4;
+	border: solid;
+	border-width: 10px;
+	border-color: #0181c8;
+	padding-left: 2.5cm;
+	max-width: 25cm;
+	text-align: center;
+}
+
+section{
+	background-color: #a2c9e4;
+	border: solid;
+	border-width: 10px;
+	border-color: #0181c8;
+	padding-left: 2.5cm;
+	max-width:25cm;
+}
+
+article ol{
+	list-style-type: square;
+	max-width: 16cm;
+}
+
+section ol{
+	list-style-type: square;
+	max-width: 16cm;
+}
+
+h1, h2{
+	color: #064055;
+	font-weight: bolder;
+	text-decoration: underline;
+	font-size: 28px;
+}
+
+h1{
+	font-size: 36px;
+}
+
+h3{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+h4{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+header p{
+	font-size: 20px;
+}
+
+.view-button {
+	display: none;
+}
